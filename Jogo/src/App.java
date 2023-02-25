@@ -6,5 +6,6 @@ public class App {
         System.out.println(jogador.getHp());
 
         //System.out.println(jogador);
+        //teste
     }
 }
