@@ -1,8 +1,8 @@
-public class Eletronicos extends LojaVirtual{
+public class Eletronico extends LojaVirtual{
     private String marca;
     private String modelo;   
     
-    public Eletronicos(String nome, double preco, String marca, String modelo) {
+    public Eletronico(String nome, double preco, String marca, String modelo) {
         super(nome, preco);
         this.marca = marca;
         this.modelo = modelo;

@@ -1,7 +1,7 @@
-public class Livros extends LojaVirtual {
+public class Livro extends LojaVirtual {
     private String autor;
 
-    public Livros(String nome, double preco, String autor) {
+    public Livro(String nome, double preco, String autor) {
         super(nome, preco);
         this.autor = autor;
     }
